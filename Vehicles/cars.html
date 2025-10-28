@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./cars.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="w-full py-[28px] sticky top-0 backdrop-blur-2xl">
+        <div class="w-[1440px] mx-auto flex items-center justify-between">
+            <div>
+                <img class="w-[180px] h-[48px] object-cover" src="/Logo (1).png" alt="logo">
+            </div>
+            <div>
+                <ul class="flex gap-[50px]">
+                    <li><a href="/Home/cars.html" class="text-[18px] font-medium">Home</a></li>
+                    <li><a href="/Vehicles/cars.html"  class="text-[18px] font-bold">Vehicles</a></li>
+                    <li><a href="/Details/cars.html" class="text-[18px] font-medium">Details</a></li>
+                    <li><a href="/AboutUS/cars.html" class="text-[18px] font-medium">About Us</a></li>
+                    <li><a href="/ContactUS/cars.html" class="text-[18px] font-medium">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="flex items-center gap-[12px]">
+                <div>
+                    <img src="/Icon+bg.png" alt="tel">
+                </div>
+                <div>
+                    <h1 class="text-[18px]">Need help?</h1>
+                    <h2 class="text-[16px] font-semibold">+996 247-1680</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="w-full">
+        <div class="w-[1440px] mx-auto my-[60px] flex flex-col gap-[60px]">
+            <div>
+                <h1 class="text-[50px] font-bold text-center">Select a vehicle group</h1>
+            </div>
+            <div class="w-[1008px] mx-auto flex justify-between">
+                <button class="py-[8px] px-[20px] rounded-[50px] text-[16px] font-medium text-white bg-[#5937E0]">All vehicles</button>
+                <button class="flex items-center gap-[8px] py-[8px] px-[20px] rounded-[50px] text-[16px] font-medium bg-[#F9F9F9]">
+                    <img src="./011-sedan.png" alt="rasm">    
+                    Sedan
+                </button>
+                <button class="flex items-center gap-[8px] py-[8px] px-[20px] rounded-[50px] text-[16px] font-medium bg-[#F9F9F9]">
+                    <img src="./039-cabriolet.png" alt="rasm">
+                    Cabriolet
+                </button>
+                <button class="flex items-center gap-[8px] py-[8px] px-[20px] rounded-[50px] text-[16px] font-medium bg-[#F9F9F9]">
+                    <img src="./002-pickup.png" alt="rasm">
+                    Pickup
+                </button>
+                <button class="flex items-center gap-[8px] py-[8px] px-[20px] rounded-[50px] text-[16px] font-medium bg-[#F9F9F9]">
+                    <img src="./012-suv.png" alt="rasm">
+                    Suv
+                </button>
+                <button class="flex items-center gap-[8px] py-[8px] px-[20px] rounded-[50px] text-[16px] font-medium bg-[#F9F9F9]">
+                    <img src="./034-minivan.png" alt="rasm">
+                    Minivan
+                </button>
+            </div>
+            <div class="grid grid-cols-3 gap-[45px]">
+                <div class="w-[450px] bg-[#fafafa] rounded-[20px] p-[24px] flex flex-col gap-[40px]">
+                    <img class="object-cover" src="/b2850f746ad6eb61aa8e0f8bc654936748b99c7a.png" alt="rasm">
+                    <div class="flex justify-between">
+                        <div>
+                            <h1 class="text-[24px] font-bold">Mercedes</h1>
+                            <h2>Sedan</h2>
+                        </div>
+                        <div>
+                            <h1 class="text-[24px] font-bold text-[#5937E0]">$25</h1>
+                            <h2>per day</h2>
+                        </div>
+                    </div>
+                    <div class="flex justify-between">
+                        <div class="flex gap-[8px]">
+                            <img src="./gear-shift(1) 1.png" alt="">
+                            <h1 class="text-[#00000099]">Automat</h1>
+                        </div>
+                        <div class="flex gap-[8px]">
+                            <img src="./g17.png" alt="">
+                            <h1 class="text-[#00000099]">PB 95</h1>
+                        </div>
+                        <div class="flex gap-[8px]">
+                            <img src="./g1593.png" alt="">
+                            <h1 class="text-[#00000099]">Air Conditioner</h1>
+                        </div>
+                    </div>
+                    <button class="bg-[#5937E0] py-[13px] text-white font-semibold rounded-[12px]">View Details</button>
+                </div>
+                <div class="w-[450px] bg-[#fafafa] rounded-[20px] p-[24px] flex flex-col gap-[40px]">
+                    <img class="object-cover" src="/c62a13f536f3c21560e62cdf1659d54e9fea3b1a.png" alt="rasm">
+                    <div class="flex justify-between">
+                        <div>
+                            <h1 class="text-[24px] font-bold">Mercedes</h1>
+                            <h2>Sedan</h2>
+                        </div>
+                        <div>
+                            <h1 class="text-[24px] font-bold text-[#5937E0]">$25</h1>
+                            <h2>per day</h2>
+                        </div>
+                    </div>
+                    <div class="flex justify-between">
+                        <div class="flex gap-[8px]">
+                            <img src="./gear-shift(1) 1.png" alt="">
+                            <h1 class="text-[#00000099]">Automat</h1>
+                        </div>
+                        <div class="flex gap-[8px]">
+                            <img src="./g17.png" alt="">
+                            <h1 class="text-[#00000099]">PB 95</h1>
+                        </div>
+                        <div class="flex gap-[8px]">
+                            <img src="./g1593.png" alt="">
+                            <h1 class="text-[#00000099]">Air Conditioner</h1>
+                        </div>
+                    </div>
+                    <button class="bg-[#5937E0] py-[13px] text-white font-semibold rounded-[12px]">View Details</button>
+                </div>
+                <div class="w-[450px] bg-[#fafafa] rounded-[20px] p-[24px] flex flex-col gap-[40px]">
+                    <img class="object-cover" src="/d58b4438f2597ad6e8a4905562582b7c3add48cd.png" alt="rasm">
+                    <div class="flex justify-between">
+                        <div>
+                            <h1 class="text-[24px] font-bold">Mercedes</h1>
+                            <h2>Sedan</h2>
+                        </div>
+                        <div>
+                            <h1 class="text-[24px] font-bold text-[#5937E0]">$25</h1>
+                            <h2>per day</h2>
+                        </div>
+                    </div>
+                    <div class="flex justify-between">
+                        <div class="flex gap-[8px]">
+                            <img src="./gear-shift(1) 1.png" alt="">
+                            <h1 class="text-[#00000099]">Automat</h1>
+                        </div>
+                        <div class="flex gap-[8px]">
+                            <img src="./g17.png" alt="">
+                            <h1 class="text-[#00000099]">PB 95</h1>
+                        </div>
+                        <div class="flex gap-[8px]">
+                            <img src="./g1593.png" alt="">
+                            <h1 class="text-[#00000099]">Air Conditioner</h1>
+                        </div>
+                    </div>
+                    <button class="bg-[#5937E0] py-[13px] text-white font-semibold rounded-[12px]">View Details</button>
+                </div>
+                <div class="w-[450px] bg-[#fafafa] rounded-[20px] p-[24px] flex flex-col gap-[40px]">
+                    <img class="object-cover" src="/21e8f4a2d7288c6113c4c8ece04ab43590c67a77.png" alt="rasm">
+                    <div class="flex justify-between">
+                        <div>
+                            <h1 class="text-[24px] font-bold">Mercedes</h1>
+                            <h2>Sedan</h2>
+                        </div>
+                        <div>
+                            <h1 class="text-[24px] font-bold text-[#5937E0]">$25</h1>
+                            <h2>per day</h2>
+                        </div>
+                    </div>
+                    <div class="flex justify-between">
+                        <div class="flex gap-[8px]">
+                            <img src="./gear-shift(1) 1.png" alt="">
+                            <h1 class="text-[#00000099]">Automat</h1>
+                        </div>
+                        <div class="flex gap-[8px]">
+                            <img src="./g17.png" alt="">
+                            <h1 class="text-[#00000099]">PB 95</h1>
+                        </div>
+                        <div class="flex gap-[8px]">
+                            <img src="./g1593.png" alt="">
+                            <h1 class="text-[#00000099]">Air Conditioner</h1>
+                        </div>
+                    </div>
+                    <button class="bg-[#5937E0] py-[13px] text-white font-semibold rounded-[12px]">View Details</button>
+                </div>
+                <div class="w-[450px] bg-[#fafafa] rounded-[20px] p-[24px] flex flex-col gap-[40px]">
+                    <img class="object-cover" src="/da1058c96659e705b2c338cfdbbc70843323a16d.png" alt="rasm">
+                    <div class="flex justify-between">
+                        <div>
+                            <h1 class="text-[24px] font-bold">Mercedes</h1>
+                            <h2>Sedan</h2>
+                        </div>
+                        <div>
+                            <h1 class="text-[24px] font-bold text-[#5937E0]">$25</h1>
+                            <h2>per day</h2>
+                        </div>
+                    </div>
+                    <div class="flex justify-between">
+                        <div class="flex gap-[8px]">
+                            <img src="./gear-shift(1) 1.png" alt="">
+                            <h1 class="text-[#00000099]">Automat</h1>
+                        </div>
+                        <div class="flex gap-[8px]">
+                            <img src="./g17.png" alt="">
+                            <h1 class="text-[#00000099]">PB 95</h1>
+                        </div>
+                        <div class="flex gap-[8px]">
+                            <img src="./g1593.png" alt="">
+                            <h1 class="text-[#00000099]">Air Conditioner</h1>
+                        </div>
+                    </div>
+                    <button class="bg-[#5937E0] py-[13px] text-white font-semibold rounded-[12px]">View Details</button>
+                </div>
+                <div class="w-[450px] bg-[#fafafa] rounded-[20px] p-[24px] flex flex-col gap-[40px]">
+                    <img class="object-cover" src="/21e8f4a2d7288c6113c4c8ece04ab43590c67a77.png" alt="rasm">
+                    <div class="flex justify-between">
+                        <div>
+                            <h1 class="text-[24px] font-bold">Mercedes</h1>
+                            <h2>Sedan</h2>
+                        </div>
+                        <div>
+                            <h1 class="text-[24px] font-bold text-[#5937E0]">$25</h1>
+                            <h2>per day</h2>
+                        </div>
+                    </div>
+                    <div class="flex justify-between">
+                        <div class="flex gap-[8px]">
+                            <img src="./gear-shift(1) 1.png" alt="">
+                            <h1 class="text-[#00000099]">Automat</h1>
+                        </div>
+                        <div class="flex gap-[8px]">
+                            <img src="./g17.png" alt="">
+                            <h1 class="text-[#00000099]">PB 95</h1>
+                        </div>
+                        <div class="flex gap-[8px]">
+                            <img src="./g1593.png" alt="">
+                            <h1 class="text-[#00000099]">Air Conditioner</h1>
+                        </div>
+                    </div>
+                    <button class="bg-[#5937E0] py-[13px] text-white font-semibold rounded-[12px]">View Details</button>
+                </div>
+                <div class="w-[450px] bg-[#fafafa] rounded-[20px] p-[24px] flex flex-col gap-[40px]">
+                    <img class="object-cover" src="/137c1541f858ea0cbcbfd357be0d8877adcb431f.png" alt="rasm">
+                    <div class="flex justify-between">
+                        <div>
+                            <h1 class="text-[24px] font-bold">Mercedes</h1>
+                            <h2>Sedan</h2>
+                        </div>
+                        <div>
+                            <h1 class="text-[24px] font-bold text-[#5937E0]">$25</h1>
+                            <h2>per day</h2>
+                        </div>
+                    </div>
+                    <div class="flex justify-between">
+                        <div class="flex gap-[8px]">
+                            <img src="./gear-shift(1) 1.png" alt="">
+                            <h1 class="text-[#00000099]">Automat</h1>
+                        </div>
+                        <div class="flex gap-[8px]">
+                            <img src="./g17.png" alt="">
+                            <h1 class="text-[#00000099]">PB 95</h1>
+                        </div>
+                        <div class="flex gap-[8px]">
+                            <img src="./g1593.png" alt="">
+                            <h1 class="text-[#00000099]">Air Conditioner</h1>
+                        </div>
+                    </div>
+                    <button class="bg-[#5937E0] py-[13px] text-white font-semibold rounded-[12px]">View Details</button>
+                </div>
+                <div class="w-[450px] bg-[#fafafa] rounded-[20px] p-[24px] flex flex-col gap-[40px]">
+                    <img class="object-cover" src="/9f76967de0d658ae6cf01393842653820826a179.png" alt="rasm">
+                    <div class="flex justify-between">
+                        <div>
+                            <h1 class="text-[24px] font-bold">Mercedes</h1>
+                            <h2>Sedan</h2>
+                        </div>
+                        <div>
+                            <h1 class="text-[24px] font-bold text-[#5937E0]">$25</h1>
+                            <h2>per day</h2>
+                        </div>
+                    </div>
+                    <div class="flex justify-between">
+                        <div class="flex gap-[8px]">
+                            <img src="./gear-shift(1) 1.png" alt="">
+                            <h1 class="text-[#00000099]">Automat</h1>
+                        </div>
+                        <div class="flex gap-[8px]">
+                            <img src="./g17.png" alt="">
+                            <h1 class="text-[#00000099]">PB 95</h1>
+                        </div>
+                        <div class="flex gap-[8px]">
+                            <img src="./g1593.png" alt="">
+                            <h1 class="text-[#00000099]">Air Conditioner</h1>
+                        </div>
+                    </div>
+                    <button class="bg-[#5937E0] py-[13px] text-white font-semibold rounded-[12px]">View Details</button>
+                </div>
+                <div class="w-[450px] bg-[#fafafa] rounded-[20px] p-[24px] flex flex-col gap-[40px]">
+                    <img class="object-cover" src="/0f63e2c10fe193683157c995d62cdaa56363ee06.png" alt="rasm">
+                    <div class="flex justify-between">
+                        <div>
+                            <h1 class="text-[24px] font-bold">Mercedes</h1>
+                            <h2>Sedan</h2>
+                        </div>
+                        <div>
+                            <h1 class="text-[24px] font-bold text-[#5937E0]">$25</h1>
+                            <h2>per day</h2>
+                        </div>
+                    </div>
+                    <div class="flex justify-between">
+                        <div class="flex gap-[8px]">
+                            <img src="./gear-shift(1) 1.png" alt="">
+                            <h1 class="text-[#00000099]">Automat</h1>
+                        </div>
+                        <div class="flex gap-[8px]">
+                            <img src="./g17.png" alt="">
+                            <h1 class="text-[#00000099]">PB 95</h1>
+                        </div>
+                        <div class="flex gap-[8px]">
+                            <img src="./g1593.png" alt="">
+                            <h1 class="text-[#00000099]">Air Conditioner</h1>
+                        </div>
+                    </div>
+                    <button class="bg-[#5937E0] py-[13px] text-white font-semibold rounded-[12px]">View Details</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="w-full py-[60px]">
+        <div class="w-[1440px] py-[60px] px-[40px] bg-[#FAFAFA] mx-auto rounded-[40px] flex justify-between">
+            <img class="object-contain" src="./Logo (2).png" alt="rasm">
+            <img class="object-contain" src="./Logo (3).png" alt="rasm">
+            <img class="object-contain" src="./Logo (4).png" alt="rasm">
+            <img class="object-contain" src="./Logo (5).png" alt="rasm">
+            <img class="object-contain" src="./Logo (6).png" alt="rasm">
+            <img class="object-contain" src="./Logo (7).png" alt="rasm">
+        </div>
+    </div>
+    <div class="w-full py-[60px]">
+        <div class="w-[1440px] mx-auto flex flex-col gap-[80px] pt-[60px]">
+            <div class="flex justify-between items-center">
+                <div>
+                    <img src="/Logo (1).png" alt="logo">
+                </div>
+                <div class="flex items-center gap-[12px]">
+                    <div>
+                        <img src="./Icon+bg (1).png" alt="rasm">
+                    </div>
+                    <div>
+                        <h1>Address</h1>
+                        <h2 class="font-semibold">Oxford Ave. Cary, NC 27511</h2>
+                    </div>
+                </div>
+                <div class="flex items-center gap-[12px]">
+                    <div>
+                        <img src="./Icon+bg (2).png" alt="rasm">
+                    </div>
+                    <div>
+                        <h1>Email</h1>
+                        <h2 class="font-semibold">nwiger@yahoo.com</h2>
+                    </div>
+                </div>
+                <div class="flex items-center gap-[12px]">
+                    <div>
+                        <img src="./Icon+bg (3).png" alt="rasm">
+                    </div>
+                    <div>
+                        <h1>Phone</h1>
+                        <h2 class="font-semibold">+537 547-6401</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-between">
+                <div class="w-[250px] flex flex-col gap-[55px]">
+                    <div>
+                        <p class="text-[20px] font-semibold">Faucibus faucibus pellentesque dictum turpis. Id pellentesque turpis massa a id iaculis lorem
+                            t...</p>
+                    </div>
+                    <div class="flex gap-[20px]">
+                        <img src="./Group (6).png" alt="rasm">
+                        <img src="./Group (7).png" alt="rasm">
+                        <img src="./Group (8).png" alt="rasm">
+                        <img src="./Group (9).png" alt="rasm">
+                    </div>
+                </div>
+                <div>
+                    <h1 class="text-[20px] font-semibold mb-[24px]">Useful links</h1>
+                    <ul class="flex flex-col gap-[5px]">
+                        <li class="text-[16px]">About us</li>
+                        <li class="text-[16px]">Contact us</li>
+                        <li class="text-[16px]">Gallery</li>
+                        <li class="text-[16px]">Blog</li>
+                        <li class="text-[16px]">F.A.Q</li>
+                    </ul>
+                </div>
+                <div>
+                    <h1 class="text-[20px] font-semibold mb-[24px]">Useful links</h1>
+                    <ul class="flex flex-col gap-[5px]">
+                        <li class="text-[16px]">About us</li>
+                        <li class="text-[16px]">Contact us</li>
+                        <li class="text-[16px]">Gallery</li>
+                        <li class="text-[16px]">Blog</li>
+                        <li class="text-[16px]">F.A.Q</li>
+                    </ul>
+                </div>
+                <div class="flex flex-col gap-[34px]">
+                    <h1 class="text-[20px] font-semibold">Download App</h1>
+                    <button class="bg-black text-white flex items-center gap-2 px-[7px] py-[0.94px] rounded-[5px]">
+                        <div>
+                            <i class="fa-brands fa-apple text-[34px]"></i>
+                        </div>
+                        <div>
+                            <h2 class="text-[11px]">Download on the</h2>
+                            <h1 class="font-medium text-[18px]">App Store</h1>
+                        </div>
+                    </button>
+                    <button class="bg-black text-white flex items-center gap-2 px-[7px] py-[0.94px] rounded-[5px]">
+                        <div>
+                            <img src="./Icon (1).png" alt="icon">
+                        </div>
+                        <div class="flex flex-col items-start">
+                            <h2 class="text-[11px]">GET IN ON</h2>
+                            <h1 class="font-medium text-[18px]">Google Play</h1>
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div>
+                <p class="text-center text-[#00000080] text-[14px]"> © Copyright Car Rental  2024. Design by Figma. guru</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./cars.js"></script>
+</body>
+</html>

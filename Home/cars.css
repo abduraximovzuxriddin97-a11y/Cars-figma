@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+#car{
+    background-image: url('./Group\ \(3\).png');
+    background-size: cover;
+}
+
+#facts{
+    background-image: url('./Img\ \(2\).png');
+    background-size: 789px;
+    background-position-x: 270px;
+    background-position-y: 180px;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+}
+
+#item {
+    background-image: url('./Group\ \(5\).png');
+    background-repeat: no-repeat;
+    background-position-y: 50px;
+}
